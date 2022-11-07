@@ -1,0 +1,144 @@
+.work{
+	padding-top: 35px;
+	padding-bottom: 70px;
+}
+
+
+.work__groups {
+	position: relative;
+}
+.work__list-one {
+	display: flex;
+	margin-bottom: 49px;
+	
+}
+
+.work__list-one::after {
+	content:"";
+	display: block;
+	height: 2px;
+	width: 1300px;
+	background-color: #002FA8;
+	position: absolute;
+	z-index: -1;
+	top: 24px;
+  left: 10px;
+}
+
+
+.work__list-one > .work__item:not(:last-child){
+	margin-right: 276px;
+}
+
+
+.work__item {
+
+}
+.work__item--lightning::before{
+	content: "";
+	display: block;
+	background: url("../images/icons/cloudRight.svg") no-repeat;
+	width: 80px;
+	height: 97px;
+	position: absolute;
+	z-index: -1;
+	top: -20px;
+
+
+}
+.work__item--lightning-left::before {
+	content: "";
+	display: block;
+	background: url("../images/icons/cloudLeft.svg") no-repeat;
+	width: 80px;
+	height: 97px;
+	position: absolute;
+	top: -13px;
+	left: 315px;
+	z-index: -1;
+}
+
+
+
+
+
+.work__list-two {
+	display: flex;
+	margin-bottom: 57px;
+}
+.work__list-two > .work__item:not(:last-child){
+	margin-right: 71px;
+}
+
+.work__list-three {
+	display: flex;
+	margin-bottom: 21px;
+
+}
+.work__list-three > .work__item:not(:last-child){
+	margin-right: 276px;
+}
+
+.work__list-fourth {
+	display: flex;
+}
+
+.work__list-fourth > .work__item:not(:last-child){
+	margin-right: 106px;
+}
+
+
+
+
+.work__list-one > .work__item,
+.work__list-three > .work__item {
+	font-family: 'Jost';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;background: #DCEAFF;
+	box-shadow: 0px 0px 15px #BEDCFF;
+	
+}
+
+.work__list-one,
+.work__list-two,
+.work__list-three,
+.work__list-fourth {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
+	color: #000000;
+	display: flex;
+	position: relative;
+	
+}
+
+.work__item--text {
+	max-width: 255px;
+	
+}
+
+.work__item--text--short {
+	max-width: 226px;
+}
+
+.work__item--text--fifty {
+	max-width: 224px;
+}
+
+.work__list-fourth {
+	
+}
+
+.work__item--padding--left {
+	
+}

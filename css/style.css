@@ -1,0 +1,12 @@
+
+/*Подключение через импорт стилей***/
+
+@import"normalize.css";
+@import"global.css";
+@import"header.css";
+@import"main.css";
+@import"footer.css";
+@import"about.css";
+@import"privilige.css";
+@import"work.css";
+@import"slider.css";

@@ -1,0 +1,85 @@
+.privilige {
+	padding: 70px 0px;
+}
+
+.privilige__container {
+	position: relative;
+}
+
+
+.page-title-center {
+	
+}
+
+.cards {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 325px 325px 325px;
+	grid-template-rows: 135px 135px 135px;
+	grid-auto-rows: auto;
+	
+}
+
+.cards::after {
+	content:"";
+	display: block;
+	background: url("../images/icons/decorTwo.png") no-repeat;
+	width: 106px;
+	height: 447px;
+	right: 241px;
+	bottom: 38px;
+	position: absolute;
+
+}
+
+
+
+.cards__item-picture {
+	grid-row: 2/5;
+	grid-column: 1/2;
+
+}
+.cards__item--fast {
+	grid-column: 3/4;
+	background: #BEDCFF;
+	box-shadow: 0px 0px 10px #BEDCFF;
+	
+}
+
+.cards__item {
+	min-height: 135px;
+	border: 1px solid #8FAAEF;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.cards__item--height {
+	max-width: 255px;
+}
+
+
+.cards__item--cloud{
+	
+	background: radial-gradient(50% 50% at 50% 50%, #8FAAEF 0%, rgba(143, 170, 239, 0) 100%);
+	border: 1px solid #8FAAEF;
+	filter: drop-shadow(0px 0px 10px #BEDCFF);
+
+}
+
+
+.cards__item--lightblue{
+	background: #DCEAFF;
+	box-shadow: 0px 0px 10px #BEDCFF;
+}
+.cards__item--deepblue{
+	background: #7DAAED;
+	box-shadow: 0px 0px 10px #BEDCFF;
+}
+.cards__item--bigcloud{
+	background: radial-gradient(50% 50% at 50% 50%, #5393F2 0%, rgba(83, 147, 242, 0) 100%);
+	border: 1px solid #5393F2;
+	filter: drop-shadow(0px 0px 10px #BEDCFF);
+}

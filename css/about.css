@@ -1,0 +1,75 @@
+
+.about {
+	padding: 70px 0px;
+}
+.about__container {
+
+}
+
+.about__content {
+	display: flex;	
+}
+
+.about__text {
+	max-width: 668px;
+	margin-right: 42px;
+}
+
+
+.page-title {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 116px;
+	color: #000000;
+	
+}
+
+
+.page-text {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
+	color: #000000;
+
+}
+
+
+.page-text--margin--bottom {
+	margin-bottom: 40px;
+}
+.page-title--margin--bottom {
+	margin-bottom: 40px;
+}
+
+.about__img {
+	position: relative;
+
+}
+
+.about__img::after {
+	content:"";
+	background-image: url("../images/icons/woodtwo.svg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 207px;
+	height: 267.5px;
+	position: absolute;
+	right: -63px;
+	bottom: -36px;
+}
+
+.about__img::before {
+	content: "";
+	display: block;
+	background-repeat: no-repeat;
+	outline: 1px solid #000000;
+	width: 452px;
+	height: 459px;
+	position: absolute;
+	top: 55px;
+  left: 51px;
+}
