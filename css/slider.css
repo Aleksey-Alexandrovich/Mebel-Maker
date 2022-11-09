@@ -7,14 +7,27 @@
 /* Ограничивающая оболочка */
 .slick-list {
 	overflow: hidden;
+	
+	
+}
+.swiper__container {
+	position: relative;
+}
+
+.slider__item {
+	text-align: center;
+	
 }
 /* Лента слайдов */
 .slick-track{
 	display: flex;
 	align-items: flex-start;
 }
+
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+	
+}
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
@@ -44,10 +57,11 @@
 	padding: 70px 0px;
 }
 
-
 .slider {
 	position: relative;
 	padding: 0px 60px;
+	margin-bottom: 140px;
+	
 
 }
 
@@ -95,4 +109,31 @@
 	background-color: transparent;
 	border: 1px solid pink;
 	
+}
+
+.swiper__title {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: calc(20px + 20 * (100vw / 1920));
+	line-height: 35px;
+	text-align: center;
+	color: var(--main-color);
+}
+
+.swiper__title::before {
+	content: "";
+	display: block;
+	background: url("../images/icons/decorCloud.svg") no-repeat;
+	width: 170px;
+	height: 156px;
+	position: absolute;
+	bottom: 71px;
+	right: 242px;
+	
+}
+
+		
+.button--swiper {
+	margin: 0 auto;
 }

@@ -52,6 +52,8 @@
 html {
   position: relative;
   box-sizing: border-box;
+	font-size: calc(10 * 100vw / 1920);
+	
 	
 }
 
@@ -67,6 +69,7 @@ body {
   min-height: 100vh;
 	font-family: 'Jost', sans-serif;
   font-family: 'Jacques Francois', serif;
+	color: #000000;
 	
 }
 
@@ -78,7 +81,6 @@ body {
 	display: flex;
 	overflow: hidden;
 	flex-direction: column;
-	
 }
 
 

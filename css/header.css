@@ -1,3 +1,11 @@
+.logo__mebel-maker {
+	color: #FFFFFF;
+	transition-duration: 0.4s;
+}
+
+.logo__mebel-maker:hover {
+	color: #808080;
+}
 
 .header {
 	background: #15346D;
@@ -27,19 +35,19 @@
 	flex-wrap: wrap;
 	font-family: 'Jost';
 	font-weight: 300;
-	font-size: calc(16px + 8 * (100vw / 1440));
+	font-size: calc(16px + 8 * (100vw / 1920));
 	line-height: 3.5;
 	color: #FFFFFF;
 }
 
-.header__tel {
+.contacts__tel {
 	font-family: 'Jost';
 	font-weight: 300;
 	line-height: 3.5;
 	color: #FFFFFF;
 	margin-right: 27px;
 	transition-duration: 0.2s;
-	font-size: calc(16px + 8 * (100vw / 1440));
+	font-size: calc(16px + 8 * (100vw / 1920));
 }
 
 
@@ -58,17 +66,17 @@
 }
 
 
-.header__contacts {
+.contacts {
 	display: flex;
 	align-items: center;
 }
 
-.header__tel:hover {
+.contacts__tel:hover {
 	color: #C5D1E7;
 
 }
 
-.header__vk:hover {
+.contacts__vk:hover {
 	color: #C5D1E7;
 
 }
@@ -115,7 +123,7 @@
 		width: 0;
 		height: 0;
 	}
-  .header__contacts--hidden {
+  .contacts--hidden {
 		visibility: hidden;
 		width: 0;
 		height: 0;

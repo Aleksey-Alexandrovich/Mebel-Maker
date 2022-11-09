@@ -1,0 +1,68 @@
+.form {
+	
+	
+}
+
+
+
+
+
+.form__container {
+	background-repeat: no-repeat;
+	background-image: url("../images/img/orderPhoto.png"),linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+	background-position: right;
+	
+}
+
+
+.request {
+	padding-top: 70px;
+	padding-bottom: 119px;
+}
+.form__title {
+	font-family: 'Jost';
+	font-weight: 400;
+	font-size: calc(36px + 44 * (100vw / 1920));
+	line-height: 83px;
+	margin-bottom: 16px;
+	max-width: 1000px;
+	
+
+}
+
+.form__subtitle {
+	font-family: 'Jost';
+	font-weight: 300;
+	font-size: calc(16px + 16 * (100vw / 1920));
+	line-height: 46px;
+	margin-bottom: 81px;	
+	max-width: 988px;
+
+}
+.form__fieldset {
+	border: none;
+	display: flex;
+	flex-direction: column;
+	
+}
+.form__input {
+	margin-bottom: 40px;
+	font-family: 'Jost';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 35px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	max-width: 555px;
+	
+}
+
+.form__input:not(:first-child) {
+	margin-bottom: 65px;
+}
+
+
+.button {
+
+}

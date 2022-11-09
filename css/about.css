@@ -5,13 +5,15 @@
 .about__container {
 
 }
-
 .about__content {
-	display: flex;	
+	display: flex;
+	
+	
 }
 
+
 .about__text {
-	max-width: 668px;
+	max-width: calc(278px + 392 * (100vw / 1920));
 	margin-right: 42px;
 }
 
@@ -20,7 +22,7 @@
 	font-family: 'Jost';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 80px;
+	font-size: calc(40px + 40 * (100vw / 1920));
 	line-height: 116px;
 	color: #000000;
 	
@@ -31,7 +33,7 @@
 	font-family: 'Jost';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: calc(16px + 8 * (100vw / 1920));
 	line-height: 35px;
 	color: #000000;
 
@@ -39,10 +41,10 @@
 
 
 .page-text--margin--bottom {
-	margin-bottom: 40px;
+	margin-bottom: calc(15px + 25 * (100vw / 1920));
 }
 .page-title--margin--bottom {
-	margin-bottom: 40px;
+	margin-bottom: calc(15px + 25 * (100vw / 1920));
 }
 
 .about__img {
@@ -72,4 +74,26 @@
 	position: absolute;
 	top: 55px;
   left: 51px;
+}
+@media(max-width: 1389.98px) {	
+	.page-title {
+		font-size: calc(16px + 64 * (100vw / 1440));
+
+	}
+
+	.page-text {
+		font-size: calc(16px + 8 * (100vw / 1440));
+	}
+
+	.page-title--margin--bottom {
+		margin-bottom: calc(15px + 25 * (100vw / 1440));
+	}
+	
+
+	.about__text {
+		max-width: calc(276px + 392 * (100vw/ 1440));
+		
+	}
+	
+
 }
